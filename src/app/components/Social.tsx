@@ -5,7 +5,7 @@ import { IoIosPin, IoMdStopwatch } from 'react-icons/io'
 
 const Social = () => {
   return (
-    <div className='max-w-screen-xl mx-auto flex justify-between items-center text-gray-500'>
+    <div className='max-w-screen-xl mx-auto flex justify-between items-center text-gray-500 '>
       <div className='flex gap-2 px-4'>
         <Link  href='http://www.facebook.com' target='_blank'>
           <AiFillFacebook size={24} />
@@ -13,7 +13,7 @@ const Social = () => {
         <Link  href='http://www.twitter.com' target='_blank'>
           <AiFillTwitterCircle size={24} />
         </Link>
-        <Link  href='http://www.instagram.com' target='_blank'>
+        <Link  href='http://www.instagram.com/tristan_bin' target='_blank'>
           <AiFillInstagram size={24} />
         </Link>
       </div>

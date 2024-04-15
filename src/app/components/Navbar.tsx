@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='w-full h-20 bg-[#504e4d] shadow-md'>
+    <div className='w-full h-20 bg-[#504e4d] shadow-md sticky top-0 backdrop-blur-2xl transition-colors z-50'>
       <div className='max-w-screen-xl h-full mx-auto flex px-4 xl:px-0    
       items-center justify-between'>
         <Logo 
