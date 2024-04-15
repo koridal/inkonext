@@ -6,7 +6,7 @@ import Image from "next/image";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.ChangeEvent<any>) => {
     e.preventDefault();
     const data = {
       email: e.target.email.value,
@@ -16,15 +16,11 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
-    // Form the request for sending data to the server.
     const options = {
-      // The method is POST because we are sending data.
       method: "POST",
-      // Tell the server we're sending JSON.
       headers: {
         "Content-Type": "application/json",
       },
-      // Body of the request is the JSON data we created above.
       body: JSONdata,
     };
 
