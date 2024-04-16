@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link'
 import React from 'react'
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
@@ -28,10 +29,10 @@ const Footer = () => {
             <div className=''>
               <h3 className='border-l-yellow-400 border-l-[4px] mb-4'>&nbsp;&nbsp;Our Service</h3>
               <ul className='px-3'>
-                <li><a href='service-details.html'>Urban Infrastructure</a></li>
-                <li><a href='service-details.html'>Road Infrastructure</a></li>
-                <li><a href='service-details.html'>Industrial Infrastructure</a></li>
-                <li><a href='service-details.html'>Construction Engineering</a></li>
+                <li><a href='service-details.html'>Construction</a></li>
+                <li><a href='service-details.html'>Fire-fighting Equipment</a></li>
+                <li><a href='service-details.html'>Machinery</a></li>
+                <li><a href='service-details.html'>Electrical Equipment</a></li>
               </ul>
             </div>
           </div>

@@ -1,3 +1,4 @@
+'use client';
 import AboutImg from "/images/about-img.jpg"
 import Image from 'next/image'
 
