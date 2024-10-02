@@ -64,26 +64,26 @@ body {
 }
 
 .construction {
-  background:url(/images/construction.jpg);
+  background:url(/images/homeimage/construction.jpg);
   background-position:center center;
   background-size:cover;
 }
 
 .fire-fighting {
-  background:url(/images/fire-fighting.jpg);
+  background:url(/images/homeimage/fire-fighting.jpg);
   background-position:center center;
   background-size:cover;
 }
 
 .machinery {
-  background:url(/images/machinery.jpg);
+  background:url(/images/homeimage/machinery.jpg);
   background-position:center center;
   background-size:cover;
 }
 
 
 .electric {
-  background:url(/images/electric.jpg);
+  background:url(/images/homeimage/electric.jpg);
   background-position:center center;
   background-size:cover;
 }
